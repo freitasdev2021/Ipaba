@@ -1,9 +1,9 @@
 <?php
 
-namespace Controllers;
+require_once("controller.php");
 
-class Home {
+class Home extends Controller{
     public function index() {
-        echo "Método index da Home está funcionando!";
+        include VIEW.'home.php';
     }
 }
