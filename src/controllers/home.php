@@ -4,6 +4,9 @@ require_once("controller.php");
 
 class Home extends Controller{
     public function index() {
-        include VIEW.'home.php';
+        Controller::viewSite('home.html',[
+            "Nome" => "Max",
+            "Gostos" => ['Carros','Jogos','WWE']
+        ]);
     }
 }

@@ -7,16 +7,9 @@ $rotas = [
 
 $uri = $_SERVER['REQUEST_URI'];
 if (isset($rotas[$uri])) {
-    [$classe, $metodo] = explode('@', $rotas[$uri]);
-    // Adiciona o namespace correto antes da classe
-    
-    
-    if (class_exists($classe) && method_exists($classe, $metodo)) {
-        $controller = new $classe();
-        return $controller->$metodo();
-    } else {
-        echo "Erro: Classe ou método não encontrados.";
-    }
+    [$classe, $metodo] = explode('@', $rotas[$uri]); 
+    $controller = new $classe();
+    return $controller->$metodo();
 }else{
-    echo "Rota Inexistente";
+    echo "Erro 404";
 }
