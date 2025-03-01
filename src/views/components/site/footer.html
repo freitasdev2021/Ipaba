@@ -1,0 +1,64 @@
+    </main>
+    <footer>
+        <span>
+            <div>
+                <img src="src/img/logotipo.png">
+            </div>
+            <hr>
+            <div id="textEndereco">
+                <p>
+                    Av. Manoel Machado Franco, 176 - Centro - Ipaba/MG, CEP: 35198-000
+                </p>
+                <p>
+                    E-mail: gabinete@ipaba.mg.gov.br
+                </p>
+            </div>
+        </span>
+        <span>
+            <h5>Transparência</h5>
+            <hr>
+            <ul>
+                <li><a href="">TRANSPARÊNCIA EM TEMPO REAL</a></li>
+                <li><a href="">TRANSPARÊNCIA EM MINAS GERAIS</a></li>
+                <li><a href="">TRANSPARÊNCIA DA UNIÃO</a></li>
+                <li><a href="">CONVÊNIOS</a></li>
+                <li><a href="">DADOS ABERTOS</a></li>
+                <li><a href="">E-SIC</a></li>
+                <li><a href="">OUVIDORIA</a></li>
+            </ul>
+        </span>
+        <span>
+            <h5>ESTRUTURA ADMINISTRATIVA E TELEFONES</h5>
+            <hr>
+            <ul>
+                <li><a href="">ORGANOGRAMA</a></li>
+                <li><a href="">TELEFONES ÚTEIS</a></li>
+            </ul>
+        </span>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript">
+$('.dropdown-toggle').on('mouseover', function (e) {
+    e.preventDefault(); // Evita o comportamento padrão do link
+
+    const dropdown = $(this).parent(); // O elemento pai do link
+    const dropdownMenu = dropdown.find('.dropdown-menu'); // O menu dropdown
+
+    // Alterna a classe 'show'
+    dropdown.toggleClass('show');
+    dropdownMenu.toggleClass('show');
+    });
+
+    // Fecha o dropdown ao clicar fora
+    $(document).on('mouseout', function (e) {
+    if (!$(e.target).closest('.dropdown').length) {
+        $('.dropdown').removeClass('show');
+        $('.dropdown-menu').removeClass('show');
+    }
+});
+</script>

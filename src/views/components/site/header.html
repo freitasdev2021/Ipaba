@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/body.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/popup.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <title>Ola</title>
+</head>
+<body>
+    <main>
+        <header class="navGeral">
+            <!--INÍCIO DOS NAVS-->
+            <!--NAV SUPERIOR-->
+            <nav class="navbar navbar-expand-lg" style="background: #0C8238;">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navSuperior arrasta" id="navbarTogglerDemo02">
+                <!-- Lista do lado esquerdo -->
+                <ul class="mb-3 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-sun"></i> Contraste</a>
+                  </li>
+                  <li class="nav-item idioma">
+                    <a class="nav-link" href="#"><img src="src/img/usa.png"></a>
+                    <a class="nav-link" href="#"><img src="src/img/brazil.png"></a>
+                    <a class="nav-link" href="#"><img src="src/img/spanish.png"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href=""><i class="fa-solid fa-eye"></i> Acessibilidade</a>
+                  </li>
+                </ul>
+                <!-- Lista do lado direito -->
+                <ul class="mb-3 mb-lg-0" style="margin-right:0px;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Ir para o conteúdo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Ir para o menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Ir para a busca</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Ir para o rodapé</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!--MEIO-->
+            <div class="navMeio" style="background: linear-gradient(rgba(0, 128, 0, 0.1), rgba(0, 128, 0, 0.9)),url(src/img/Ipaba2.jpg); background-size:cover;">
+                <span class="arrasta" id="divLogo">
+                  <a href="">
+                    <img id="logo" src="src/img/logotipo.png"></img>
+                  </a>
+                </span>
+                <span class="arrasta">
+                  <div>
+                    <div id="textoInput">
+                      <a class="linkCrt" href="https://www.cft.org.br/painel-lgpd/">LGPD</a>
+                      <a class="linkCrt" href="https://crt-es.implanta.net.br/portaltransparencia/#publico/inicio" id="transparencia">Transparência e Prestação de Contas</a>
+                    </div>
+                    <form class="search-container" action="" method="GET">
+                        <input type="text" name="pesquisa" placeholder="Buscar em todo site" style="opacity:0.8">
+                        <i class="fa fa-search" style="color:black;"></i>
+                    </form>
+                  </div>
+                </span>
+            </div>
+            <!--NAV PRINCIPAL-->
+            <nav class="navbar navbar-expand-lg" style="background: #255572; border-top:solid #216191;">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navPrincipal arrasta" id="navbarTogglerDemo03">
+                <!-- Lista do lado esquerdo -->
+                <ul class="mb-3 mb-lg-0">
+                <!--SERVIÇOS ONLINE-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link list-menu">
+                        LEGISLAÇÃO
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link list-menu">
+                        DIÁRIO OFICIAL DO MUNICÍPIO
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link list-menu">
+                        PROTOCOLO ONLINE
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link list-menu">
+                        PROCESSO SELETIVO
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link list-menu">
+                        FUNDEB
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle list-menu" id="dropdownMenu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CONTAS PÚBLICAS
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">CONTAS DO ANO ANTERIOR</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">RELATÓRIOS DE GESTÃO FISCAL - RGF</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">REL. RES. EXECUÇÃO ORÇAMENTÁRIA</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">EXTRATOS DE CONTRATOS</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">TODOS OS RELATÓRIOS</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">MARCO REGULATÓRIO - OSCS</a></li>  
+                  </ul>
+                </li>
+                <!--INSTITUICIONAL-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle list-menu" id="dropdownMenu2">
+                    RESPONSABILIDADE FISCAL
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">LDO - LEI DE DIRETRIZES ORÇAMENTÁRIAS</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">LOA - LEI ORÇAMENTÁRIA ANUAL</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">PPA - PLANO PLURIANUAL</a></li>
+                  <li><a class="dropdown-item text-dark" href="" target="_blank">TODAS AS LEIS, DECRETOS E PORTARIAS</a></li>
+                  </ul>
+                </li>
+                <!--FIM DO MENU-->
+                </ul>
+              </div>
+            </nav>
+            <!--FIM DOS NAVS-->
+        </header>

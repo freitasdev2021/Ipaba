@@ -1,0 +1,51 @@
+footer{
+    display:flex;
+    flex-direction:row;
+    background:#255572;
+    width:100%;
+    padding:20px;
+    align-items:flex-start;
+    justify-content:space-between;
+    font-family: "Poppins"
+}
+
+footer span h5{
+    font-weight: 700;
+    color:white;
+}
+
+#textEndereco{
+    width:260px;
+    color:white;
+}
+
+footer hr{
+    color:white;
+}
+
+footer span{
+    display: flex;
+    flex-direction:column;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 5px; /* Espaço entre os itens */
+    flex-direction:column;
+}
+
+footer ul li a{
+    color:white;
+}
+
+.mapaPrefeitura{
+    height:500px;
+}
+
+.mapaPrefeitura iframe{
+    border-radius:10px;
+    height:250px;
+}
