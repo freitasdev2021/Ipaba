@@ -79,6 +79,16 @@ a{
     display:flex;
   }
 
+  #socialMedia li {
+    margin:5px;
+    width:30px;
+    text-align:center;
+  }
+
+  #socialMedia li a{
+    padding:7px;
+  }
+
   .navSuperior ul li a{
     color:white;
   }
