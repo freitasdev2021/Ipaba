@@ -6,10 +6,12 @@ header("Access-Control-Allow-Headers: Content-Type");
 require"controllers/controller.php";
 require"controllers/home.php";
 require"controllers/licitacoes.php";
+require"controllers/legislacao.php";
 
 $rotas = [
     "/" => "Home@index",
-    "/Licitacoes"=> "Licitacoes@index"
+    "/Licitacoes"=> "Licitacoes@index",
+    "/Legislacao"=> "Legislacao@index"
 ];
 
 $uri = $_SERVER['REQUEST_URI'];
