@@ -1,7 +1,7 @@
 <?php
 
 class Controller{
-    public function viewSite($view, $vars) {
+    public static function viewSite($view, $vars) {
         include VIEW . 'components/site/header.html';
     
         // Carrega o conteúdo do HTML

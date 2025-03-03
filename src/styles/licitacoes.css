@@ -1,0 +1,50 @@
+.input-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.input-row .input{
+    width:33%;
+    margin:5px 4px 5px 0px;
+}
+
+.input-row .input input{
+    width:100%;
+    height:40px;
+    border:solid 1px #A7B49E;
+}
+
+.input-row .input select{
+    width:100%;
+    height:40px;
+    border:solid 1px #A7B49E;
+}
+
+.licitacoes{
+    display:flex;
+    flex-direction:column;
+}
+
+.lista-licitacoes{
+    display:flex;
+    flex-direction:column;
+}
+
+.row-licitacao{
+    margin:10px 0px 0px 0px;
+    height:200px;
+}
+
+.row-licitacao thead{
+    background:#255572;
+    color:white;
+}
+
+.row-licitacao thead tr th{
+    padding:10px;
+}
+
+.row-licitacao tbody tr td{
+    border:solid 1px #A7B49E;
+}
