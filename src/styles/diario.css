@@ -1,0 +1,51 @@
+.input-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.input-row .input{
+    width:24.6%;
+    margin:5px 4px 5px 0px;
+}
+
+.input-row .input input{
+    width:100%;
+    height:40px;
+    border:solid 1px #A7B49E;
+}
+
+.input-row .input select{
+    width:100%;
+    height:40px;
+    border:solid 1px #A7B49E;
+}
+
+.diario{
+    display:flex;
+    flex-direction:column;
+}
+
+.lista-diario{
+    display:flex;
+    flex-direction:column;
+}
+
+.row-diario{
+    margin:10px 0px 0px 0px;
+    height:200px;
+}
+
+.row-diario thead{
+    background:#255572;
+    color:white;
+}
+
+.row-diario thead tr th{
+    padding:10px;
+}
+
+.row-diario tbody tr td{
+    border:solid 1px #A7B49E;
+    padding:10px;
+}

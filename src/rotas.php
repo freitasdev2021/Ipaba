@@ -7,11 +7,17 @@ require"controllers/controller.php";
 require"controllers/home.php";
 require"controllers/licitacoes.php";
 require"controllers/legislacao.php";
+require"controllers/diario.php";
+require"controllers/contas.php";
 
 $rotas = [
     "/" => "Home@index",
     "/Licitacoes"=> "Licitacoes@index",
-    "/Legislacao"=> "Legislacao@index"
+    "/Legislacao"=> "Legislacao@index",
+    "/Diario"=> "Diario@index",
+    "/Contas" => "Contas@index",
+    "/Extratos" => "Contas@extratos",
+    "/OSCS" => "Contas@oscs"
 ];
 
 $uri = $_SERVER['REQUEST_URI'];
